@@ -11,7 +11,7 @@ class Song
 }
 class Playlist
 {
-    public List<Song> Songs { get; } = new(); // property
+    public List<Song> Songs { get; } = new(); // property, initialize new list
     public void AddSong(Song s) => Songs.Add(s); // method 
 }
 
@@ -25,7 +25,8 @@ class Program
         Playlist p = new Playlist();
         p.AddSong(s);
         p.AddSong(new Song("Fade to Black"));
-        foreach (var song in p.Songs) {
+        foreach (var song in p.Songs)
+        {
             Console.WriteLine(song.Title);
         }
 

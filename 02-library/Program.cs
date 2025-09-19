@@ -8,12 +8,11 @@ class Book
     public string Author { get; set; } //property
     public Book(string title, string author) // constructor w two parameters
     {
-        Title = title;
-        Author = author;
+        this.Title = title;
+        this.Author = author;
     } 
 
 }
-
 
 class Library
 {
