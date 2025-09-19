@@ -16,10 +16,7 @@ class Classroom
 {
     public List<Student> Students { get; } = new();
 
-    public void AddStudent(Student s)
-    {
-        Students.Add(s);
-    }
+    public void AddStudent(Student s) => Students.Add(s);
 }
 
 class Program
