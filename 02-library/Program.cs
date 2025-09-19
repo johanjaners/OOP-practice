@@ -17,9 +17,9 @@ class Book
 
 class Library
 {
-    public List<Book> Books { get; } = new(); // property, intitialze new, read only outside
+    public List<Book> Books { get; } = new(); // property , intitialze new List, read only outside
 
-    public void AddBook(Book b)
+    public void AddBook(Book b) // method addbook to list
     {
         Books.Add(b);
     }
@@ -33,6 +33,12 @@ class Program
     {
         Library L = new Library();
         L.AddBook(new Book("LOTR", "Tolkien"));
+        L.AddBook(new Book("HarryPotter", "JK Rowling"));
+        foreach (var b in Books)
+        {
+            Console.WriteLine(Books(b.Title));
+            Console.WriteLine(Books(b.Author));
+        }
     }
 }
 
