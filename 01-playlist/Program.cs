@@ -8,7 +8,11 @@ class Song
     {
         Title = title;
     }
-
+}
+class Playlist
+{
+    public List<Song> Songs { get; } = new(); // property
+    public void AddSong(Song s) => Songs.Add(s); // method 
 }
 
 class Program
@@ -17,5 +21,14 @@ class Program
     {
         Song s = new Song("Nothing Else Matters"); // create object
         Console.WriteLine(s.Title); // use property
+
+        Playlist p = new Playlist();
+        p.AddSong(s);
+        p.AddSong(new Song("Fade to Black"));
+        foreach (var song in p.Songs) {
+            Console.WriteLine(song.Title);
+        }
+
+
     }
 }

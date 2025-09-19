@@ -12,3 +12,4 @@ C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\obj\Debug\net9.0\r
 C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\obj\Debug\net9.0\01-playlist.pdb
 C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\obj\Debug\net9.0\01-playlist.genruntimeconfig.cache
 C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\obj\Debug\net9.0\ref\01-playlist.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\obj\Debug\net9.0\01-playlist.sourcelink.json
