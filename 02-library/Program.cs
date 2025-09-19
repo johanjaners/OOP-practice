@@ -9,7 +9,7 @@ class Book
     public Book(string title, string author) // constructor w two parameters
     {
         Title = title;
-        Author = Author;
+        Author = author;
     } 
 
 }
