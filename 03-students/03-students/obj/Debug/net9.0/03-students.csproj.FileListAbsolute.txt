@@ -1,0 +1,15 @@
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\bin\Debug\net9.0\03-students.exe
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\bin\Debug\net9.0\03-students.deps.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\bin\Debug\net9.0\03-students.runtimeconfig.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\bin\Debug\net9.0\03-students.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\bin\Debug\net9.0\03-students.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\obj\Debug\net9.0\03-students.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\obj\Debug\net9.0\03-students.AssemblyInfoInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\obj\Debug\net9.0\03-students.AssemblyInfo.cs
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\obj\Debug\net9.0\03-students.csproj.CoreCompileInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\obj\Debug\net9.0\03-students.sourcelink.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\obj\Debug\net9.0\03-students.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\obj\Debug\net9.0\refint\03-students.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\obj\Debug\net9.0\03-students.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\obj\Debug\net9.0\03-students.genruntimeconfig.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\03-students\03-students\obj\Debug\net9.0\ref\03-students.dll

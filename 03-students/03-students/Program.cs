@@ -5,7 +5,7 @@ class Student
 
     public int Grade { get; set; } // property
 
-    public Student(string name, int grade, int year) // constructor
+    public Student(string name, int grade) // constructor
     {
         this.Name = name;
         this.Grade = grade;
@@ -26,6 +26,14 @@ class Program
 {
     static void Main()
     {
+        var C = new Classroom();
+
+        C.AddStudent(new Student("David", 5));
+        C.AddStudent(new Student("Ken", 10));
+        C.AddStudent(new Student("Sara", 8));
+
+        foreach(var student in C.Students) // looping through each student in Student list of Object C (instance of Classroom)
+            Console.WriteLine(student.Name);
 
     }
 }
