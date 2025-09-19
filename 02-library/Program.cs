@@ -5,10 +5,12 @@ using Sysem.Collections.Generic;
 class Book
 {
     public string Title { get; set; } // property
-    public Book(string title) { Title = title; }
-
     public string Author { get; set; } //property
-    public Book(string title) { Title = title; } // constructor
+    public Book(string title, string author) // constructor w two parameters
+    {
+        Title = title;
+        Author = Author;
+    } 
 
 }
 
@@ -30,6 +32,7 @@ class Program
     static void Main()
     {
         Library L = new Library();
+        L.AddBook(new Book("LOTR", "Tolkien"));
     }
 }
 
