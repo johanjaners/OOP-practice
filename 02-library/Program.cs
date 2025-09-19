@@ -1,2 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+using Sysem.Collections.Generic;
+
+
+class Book
+{
+    public string Title { get; set; } // property
+    public Book(string title) { Title = title; }
+
+    public string Author { get; set; } //property
+    public Book(string title) { Title = title; } // constructor
+
+}
+
+
+
