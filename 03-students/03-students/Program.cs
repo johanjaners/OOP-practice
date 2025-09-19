@@ -15,7 +15,6 @@ class Student
 class Classroom
 {
     public List<Student> Students { get; } = new();
-
     public void AddStudent(Student s) => Students.Add(s);
 }
 
@@ -24,13 +23,13 @@ class Program
     static void Main()
     {
         var C = new Classroom();
-
         C.AddStudent(new Student("David", 5));
         C.AddStudent(new Student("Ken", 10));
         C.AddStudent(new Student("Sara", 8));
 
-        foreach(var student in C.Students) // looping through each student in Student list of Object C (instance of Classroom)
+        foreach (var student in C.Students) // looping through each student in Student list of Object C (instance of Classroom)
             Console.WriteLine(student.Name);
 
+        Console.WriteLine(C.Students.Count);
     }
 }
