@@ -1,0 +1,15 @@
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\obj\Debug\net9.0\02-library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\obj\Debug\net9.0\02-library.AssemblyInfoInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\obj\Debug\net9.0\02-library.AssemblyInfo.cs
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\obj\Debug\net9.0\02-library.csproj.CoreCompileInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\obj\Debug\net9.0\02-library.sourcelink.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\bin\Debug\net9.0\02-library.exe
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\bin\Debug\net9.0\02-library.deps.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\bin\Debug\net9.0\02-library.runtimeconfig.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\bin\Debug\net9.0\02-library.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\bin\Debug\net9.0\02-library.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\obj\Debug\net9.0\02-library.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\obj\Debug\net9.0\refint\02-library.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\obj\Debug\net9.0\02-library.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\obj\Debug\net9.0\02-library.genruntimeconfig.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\02-library\obj\Debug\net9.0\ref\02-library.dll

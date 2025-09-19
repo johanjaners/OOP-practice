@@ -1,5 +1,5 @@
 ﻿using System;
-using Sysem.Collections.Generic;
+using System.Collections.Generic;
 
 
 class Book
@@ -34,10 +34,10 @@ class Program
         Library L = new Library();
         L.AddBook(new Book("LOTR", "Tolkien"));
         L.AddBook(new Book("HarryPotter", "JK Rowling"));
-        foreach (var b in Books)
+        foreach (var b in L.Books)
         {
-            Console.WriteLine(Books(b.Title));
-            Console.WriteLine(Books(b.Author));
+            Console.WriteLine(b.Title);
+            Console.WriteLine(b.Author);
         }
     }
 }
