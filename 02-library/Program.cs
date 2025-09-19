@@ -13,4 +13,24 @@ class Book
 }
 
 
+class Library
+{
+    public List<Book> Books { get; } = new(); // property, intitialze new, read only outside
+
+    public void AddBook(Book b)
+    {
+        Books.Add(b);
+    }
+
+}
+
+
+class Program
+{
+    static void Main()
+    {
+        Library L = new Library();
+    }
+}
+
 
