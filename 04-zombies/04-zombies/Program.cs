@@ -8,11 +8,14 @@ class Room
         this.Capacity = capacity;
     }
 
+    // method cheks if room is full, bool
+    public bool isFull() => Zombies.Count >= Capacity;
+
     // method, adds zombie(string) to list of zombies if capacity > 0 and capacoty > no of zombies
     public void Add(string zombie)
     {
-        if (Capacity > Zombies.Count && Capacity > 0)
-            Zombies.Add(zombie);
+        if (isFull()) return;
+        Zombies.Add(zombie);
     }
 }
 
@@ -28,6 +31,7 @@ class Program
         R.Add("E");
         R.Add("F");
 
+        Console.WriteLine(IsFull());
         Console.WriteLine(R.Zombies.Count);
     }
 }
