@@ -1,6 +1,4 @@
 ﻿
-
-
 class Room
 {
     public int Capacity { get; set; } // property , room has a capacity, assigned, and readable
@@ -9,32 +7,37 @@ class Room
     {
         this.Capacity = capacity;
     }
-
-/*
-    public void isFull()
+    /*
+        public void isFull()
+        {
+            if (Capacity == Zombies.Count)
+            {
+                return true;
+            }
+            elseif(Capacity > Zombies.Count)
+            {
+                return false;
+            }
+        }
+    */
+    // method, adds zombie(string) to list of zombies if capacity > 0 and capacoty > no of zombies
+    public void Add(string zombie)
     {
-        if (Capacity == Zombies.Count)
-        {
-            return true;
-        }
-        elseif(Capacity > Zombies.Count)
-        {
-            return false;
-        }
+        if (Capacity > Zombies.Count && Capacity > 0)
+            Zombies.Add(zombie);
     }
-*/
-
-
-    // method, adds zombie(string) to list of zombies if capacity > 0 && Room is not full
-    public void Add(string zombie) => Zombies.Add(zombie);
-
 }
 
-public class Program
+class Program
 {
     static void Main()
     {
-
+        var R = new Room(5);
+        R.Add("A");
+        R.Add("B");
+        R.Add("C");
+        R.Add("D");
+        Console.WriteLine(R.Zombies.Count);
     }
 }
 
