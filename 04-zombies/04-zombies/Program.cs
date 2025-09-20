@@ -7,19 +7,7 @@ class Room
     {
         this.Capacity = capacity;
     }
-    /*
-        public void isFull()
-        {
-            if (Capacity == Zombies.Count)
-            {
-                return true;
-            }
-            elseif(Capacity > Zombies.Count)
-            {
-                return false;
-            }
-        }
-    */
+
     // method, adds zombie(string) to list of zombies if capacity > 0 and capacoty > no of zombies
     public void Add(string zombie)
     {
@@ -32,11 +20,14 @@ class Program
 {
     static void Main()
     {
-        var R = new Room(5);
+        var R = new Room(2);
         R.Add("A");
         R.Add("B");
         R.Add("C");
         R.Add("D");
+        R.Add("E");
+        R.Add("F");
+
         Console.WriteLine(R.Zombies.Count);
     }
 }
@@ -44,7 +35,6 @@ class Program
 
 
 /*
-
 test("room is full", () => {
   const room = createRoom(0);
 
