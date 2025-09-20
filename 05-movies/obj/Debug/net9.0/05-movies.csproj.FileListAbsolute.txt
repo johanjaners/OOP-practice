@@ -1,0 +1,15 @@
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\obj\Debug\net9.0\05-movies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\obj\Debug\net9.0\05-movies.AssemblyInfoInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\obj\Debug\net9.0\05-movies.AssemblyInfo.cs
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\obj\Debug\net9.0\05-movies.csproj.CoreCompileInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\obj\Debug\net9.0\05-movies.sourcelink.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\bin\Debug\net9.0\05-movies.exe
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\bin\Debug\net9.0\05-movies.deps.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\bin\Debug\net9.0\05-movies.runtimeconfig.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\bin\Debug\net9.0\05-movies.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\bin\Debug\net9.0\05-movies.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\obj\Debug\net9.0\05-movies.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\obj\Debug\net9.0\refint\05-movies.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\obj\Debug\net9.0\05-movies.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\obj\Debug\net9.0\05-movies.genruntimeconfig.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\05-movies\obj\Debug\net9.0\ref\05-movies.dll
