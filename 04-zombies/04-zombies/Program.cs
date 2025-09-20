@@ -8,14 +8,20 @@ class Room
         this.Capacity = capacity;
     }
 
-    // method cheks if room is full, bool
-    public bool isFull() => Zombies.Count >= Capacity;
+    // method, checks if room is full, return bool
+    public bool IsFull() => Zombies.Count >= Capacity;
 
-    // method, adds zombie(string) to list of zombies if capacity > 0 and capacoty > no of zombies
+    // method, adds zombie(string) to list of zombies if capacity > 0, 
     public void Add(string zombie)
     {
-        if (isFull()) return;
-        Zombies.Add(zombie);
+        if (Capacity == 0) return;     // Cant add zombie to zero roomer
+        if (IsFull() && Capacity > 0) // FIFO Eviciton if room is full and Capacity > 0
+        {
+            Zombies.Add(zombie);
+            Zombies.RemoveAt(0);
+            return;
+        }
+        Zombies.Add(zombie);        // add zombie if room is not full and capacity abouve 0
     }
 }
 
@@ -23,16 +29,20 @@ class Program
 {
     static void Main()
     {
-        var R = new Room(2);
-        R.Add("A");
-        R.Add("B");
-        R.Add("C");
-        R.Add("D");
-        R.Add("E");
-        R.Add("F");
 
-        Console.WriteLine(IsFull());
-        Console.WriteLine(R.Zombies.Count);
+        var R = new Room(1);
+        Console.WriteLine("Created new room with capacity " + R.Capacity);
+        Console.WriteLine("Zombie A added");
+        R.Add("A");
+        Console.WriteLine("Zombie B added");
+        R.Add("B");
+        // Console.WriteLine("Zombie C added");
+        // R.Add("C");
+        Console.WriteLine("Number of in room zombies: " + R.Zombies.Count);
+        Console.WriteLine("Is room full? " + R.IsFull());
+        Console.WriteLine("Zombie in room: ");
+        foreach (var z in R.Zombies)
+            Console.WriteLine(z);
     }
 }
 
