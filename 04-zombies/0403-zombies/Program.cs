@@ -27,20 +27,20 @@ class Program
         Console.WriteLine("empty room not full: " + !r0.IsFull());
 
         var r1 = new Room(0);
-        r1.AddZombie("A");
-        Console.WriteLine("cap 0 cannot add: " + (r1.Zombies.Count == 0 && r1.IsFull()));
+        r1.AddZ("A");
+        Console.WriteLine("cap 0 cannot add: " + (r1.Zs.Count == 0 && r1.IsFull()));
 
         var r2 = new Room(1);
-        r2.AddZombie("A");
+        r2.AddZ("A");
         Console.WriteLine("one-roomer full after one: " + r2.IsFull());
 
         var r3 = new Room(2);
-        r3.AddZombie("A");
+        r3.AddZ("A");
         Console.WriteLine("two-roomer not full after one: " + !r3.IsFull());
 
         var r4 = new Room(1);
-        r4.AddZombie("A");
-        r4.AddZombie("B"); // FIFO
-        Console.WriteLine("fifo keeps newest: " + (r4.Zombies.Count == 1 && r4.Zombies[0] == "B"));
+        r4.AddZ("A");
+        r4.AddZ("B"); // FIFO
+        Console.WriteLine("fifo keeps newest: " + (r4.Zs.Count == 1 && r4.Zs[0] == "B"));
     }
 }
