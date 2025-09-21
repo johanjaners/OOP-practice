@@ -23,56 +23,24 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("empty room that fits one zombie is not full");
-        var R0 = new Room(1);
-        Console.WriteLine("Room Capacity: " + R0.Capacity);
-        Console.WriteLine("Zombies: " + R0.Zombies.Count);
-        Console.WriteLine("Room is full: " + R0.IsFull());
-        Console.WriteLine(" ");
-        Console.WriteLine("room with no capacity cannot fit any zombies");
-        var R = new Room(0);
-        Console.WriteLine("Room Capacity: " + R.Capacity);
-        Console.WriteLine("Adding zombie A");
-        R.AddZombie("A");
-        Console.WriteLine("Zombies: " + R.Zombies.Count);
-        Console.WriteLine("Room is full: " + R.IsFull());
-        Console.WriteLine(" ");
-        Console.WriteLine("one-roomer becomes full when a zombie is added");
-        var R1 = new Room(1);
-        Console.WriteLine("Room Capacity: " + R1.Capacity);
-        Console.WriteLine("Adding zombie A");
-        R1.AddZombie("A");
-        Console.WriteLine("Zombies: " + R1.Zombies.Count);
-        Console.WriteLine("Room is full: " + R1.IsFull());
-        Console.WriteLine(" ");
-        Console.WriteLine("two-roomer is not full when a zombie is added");
-        var R2 = new Room(2);
-        Console.WriteLine("Room Capacity: " + R2.Capacity);
-        Console.WriteLine("Adding zombie A");
-        R2.AddZombie("A");
-        Console.WriteLine("Zombies: " + R2.Zombies.Count);
-        Console.WriteLine("Room is full: " + R2.IsFull());
-        Console.WriteLine(" ");
-        Console.WriteLine("second zombie consumes first zombie when added to a one-roomer");
-        var R3 = new Room(1);
-        Console.WriteLine("Room Capacity: " + R3.Capacity);
-        Console.WriteLine(" ");
-        Console.WriteLine("Adding zombie A");
-        R3.AddZombie("A");
-        Console.WriteLine(" ");
-        Console.WriteLine("Zombies: " + R3.Zombies.Count);
-        Console.WriteLine("Room is full: " + R3.IsFull());
-        Console.WriteLine("Zombies in room: ");
-        foreach (var z in R3.Zombies)
-            Console.WriteLine(z);
-        Console.WriteLine(" ");
-        Console.WriteLine("Adding zombie B");
-        R3.AddZombie("B");
-        Console.WriteLine(" ");
-        Console.WriteLine("no Zombies in room: " + R3.Zombies.Count);
-        Console.WriteLine("Zombies in room: ");
-        foreach (var z in R3.Zombies)
-            Console.WriteLine(z);
-        Console.WriteLine("Room is full: " + R3.IsFull());
+        var r0 = new Room(1);
+        Console.WriteLine("empty room not full: " + !r0.IsFull());
+
+        var r1 = new Room(0);
+        r1.AddZombie("A");
+        Console.WriteLine("cap 0 cannot add: " + (r1.Zombies.Count == 0 && r1.IsFull()));
+
+        var r2 = new Room(1);
+        r2.AddZombie("A");
+        Console.WriteLine("one-roomer full after one: " + r2.IsFull());
+
+        var r3 = new Room(2);
+        r3.AddZombie("A");
+        Console.WriteLine("two-roomer not full after one: " + !r3.IsFull());
+
+        var r4 = new Room(1);
+        r4.AddZombie("A");
+        r4.AddZombie("B"); // FIFO
+        Console.WriteLine("fifo keeps newest: " + (r4.Zombies.Count == 1 && r4.Zombies[0] == "B"));
     }
 }
