@@ -1,7 +1,7 @@
 ﻿class Room
 {
     public int C { get; set; }
-    public string Z { get; set; }
+    public string? Z { get; set; } // ?allow null
     public Room(int c) => this.C = c;
     public List<string> Zs { get; } = new();
     public bool IsFull() => Zs.Count >= C;
