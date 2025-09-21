@@ -21,20 +21,27 @@ class Program
 {
     static void Main()
     {
-
+        // empty room that fits one zombie is not full
         var r0 = new Room(1);
         Console.WriteLine("Empty one room not full: " + !r0.IsFull());
 
-        /*
-        ("empty room that fits one zombie is not full", () => { });
-        ("room with no capacity cannot fit any zombies", () => {});
+        //room with no capacity cannot fit any zombies
+        var r1 = new Room(0);
+        r1.AddZ("A");
+        Console.WriteLine("no cap room cant fit any zombie: " + (r1.Zs.Count == 0));
 
-        ("one-roomer becomes full when a zombie is added", () => {});
-
-        ("two-roomer is not full when a zombie is added", () => {});
-        ("second zombie consumes first zombie when added to a one-roomer", () => {});
-        */
-        // You are free to add more tests that you think are relevant!
+        //one-roomer becomes full when a zombie is added
+        //two-roomer is not full when a zombie is added
+        //second zombie consumes first zombie when added to a one-roomer
 
     }
 }
+
+
+
+
+        // empty room that fits one zombie is not full
+        //room with no capacity cannot fit any zombies
+        //one-roomer becomes full when a zombie is added
+        //two-roomer is not full when a zombie is added
+        //second zombie consumes first zombie when added to a one-roomer
