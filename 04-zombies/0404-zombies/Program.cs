@@ -30,15 +30,16 @@ class Program
         r1.AddZ("A");
         Console.WriteLine("no cap room cant fit any zombie: " + (r1.Zs.Count == 0));
 
-        //one-roomer becomes full when a zombie is added
+        //one-roomer becomes full when a zombie is added;
+        var r2 = new Room(1);
+        r2.AddZ("A");
+        Console.WriteLine("one room gets full after one: " + r2.IsFull());
+
         //two-roomer is not full when a zombie is added
         //second zombie consumes first zombie when added to a one-roomer
 
     }
 }
-
-
-
 
         // empty room that fits one zombie is not full
         //room with no capacity cannot fit any zombies
