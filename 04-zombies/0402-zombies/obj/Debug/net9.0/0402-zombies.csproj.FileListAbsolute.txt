@@ -1,0 +1,15 @@
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\obj\Debug\net9.0\0402-zombies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\obj\Debug\net9.0\0402-zombies.AssemblyInfoInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\obj\Debug\net9.0\0402-zombies.AssemblyInfo.cs
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\obj\Debug\net9.0\0402-zombies.csproj.CoreCompileInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\obj\Debug\net9.0\0402-zombies.sourcelink.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\bin\Debug\net9.0\0402-zombies.exe
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\bin\Debug\net9.0\0402-zombies.deps.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\bin\Debug\net9.0\0402-zombies.runtimeconfig.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\bin\Debug\net9.0\0402-zombies.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\bin\Debug\net9.0\0402-zombies.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\obj\Debug\net9.0\0402-zombies.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\obj\Debug\net9.0\refint\0402-zombies.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\obj\Debug\net9.0\0402-zombies.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\obj\Debug\net9.0\0402-zombies.genruntimeconfig.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0402-zombies\obj\Debug\net9.0\ref\0402-zombies.dll
