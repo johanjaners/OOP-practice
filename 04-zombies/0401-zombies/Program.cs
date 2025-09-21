@@ -1,11 +1,10 @@
 ﻿class Room
 {
     public int Capacity { get; set; } // property of room , readabke setable
-    public string Zombie { get; set; } // 
-    public List<Zombie> Zombies { get; set; } = new();
+    public List<string> Zombies { get;} = new();
     public Room(int capacity) => this.Capacity = capacity;
-    public AddZombie(string zombie) => Zombies.Add(zombie);
-    public boolean isFull() => Zombies.Count >= Capacity;
+    public void AddZombie(string zombie) => Zombies.Add(zombie);
+    public bool isFull() => Zombies.Count >= Capacity;
 
 }
 
@@ -18,6 +17,6 @@ class Program
     {
         var R = new Room(0);
 
-        Console.WriteLine(R.isFull);
+        Console.WriteLine(R.isFull());
     }
 }
