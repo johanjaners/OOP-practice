@@ -1,4 +1,4 @@
-﻿//two-roomer is not full when a zombie is added
+﻿
 //second zombie consumes first zombie when added to a one-roomer
 
 class Room
@@ -35,6 +35,11 @@ class Program
         var r2 = new Room(1);
         r2.AddZ("A");
         Console.WriteLine("one room full w one: " + r2.IsFull());
+
+        //two-roomer is not full when a zombie is added
+        var r3 = new Room(2);
+        r3.AddZ("A");
+        Console.WriteLine("Two room not full w one: " + !r3.IsFull());
 
     }
 }
