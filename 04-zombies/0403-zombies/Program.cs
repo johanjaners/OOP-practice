@@ -4,7 +4,7 @@
     public string Z { get; set; }
     public Room(int c) => this.C = c;
     public List<string> Zs { get; } = new();
-    public bool IsFull() => Zs.Count > C;
+    public bool IsFull() => Zs.Count >= C;
     public void AddZ(string z)
     {
         if (C == 0) return;
@@ -17,8 +17,6 @@
         Zs.Add(z);
     }
 }
-
-
 class Program
 {
     static void Main()
