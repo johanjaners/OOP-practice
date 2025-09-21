@@ -4,9 +4,7 @@
     public string Zombie { get; set; }
     public List<Zombie> Zombies { get; } = new();
     public Room(int capacity) => this.Capacity = capacity;
-
     public bool IsFull() => Zombies.Count >= Capacity;
-
     public void AddZombie(string zombie)
     {
         if (Capacity == 0) return;
@@ -18,10 +16,14 @@
         }
         Zombies.Add(zombie);
     }
+}
 
 
-
-
-
-
+class Program
+{
+    static void Main()
+    {
+        var r0 = new Room(1);
+        Check("empty room nut full", !r0.IsFull());
+    }
 }
