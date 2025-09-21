@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "0405-zombie/1.0.0": {
+        "runtime": {
+          "0405-zombie.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "0405-zombie/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
