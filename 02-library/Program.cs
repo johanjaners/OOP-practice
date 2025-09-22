@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-
-class Book
+﻿class Book
 {
     public string Title { get; set; } // property
     public string Author { get; set; } //property
@@ -13,18 +9,20 @@ class Book
     } 
 
 }
-
 class Library
 {
-    public List<Book> Books { get; } = new(); // property , intitialze new List, read only outside
+    public List<Book> Books { get; } = new(); // property , intitialze new List
 
     public void AddBook(Book b) // method addbook to list
     {
         Books.Add(b);
     }
 
+    public Book FindBook(string title, string author)
+    {
+        return Books.Find(b => b.Title == title && b.Author == author);
+    }
 }
-
 
 class Program
 {
@@ -38,6 +36,9 @@ class Program
             Console.WriteLine(b.Title);
             Console.WriteLine(b.Author);
         }
+
+        var FoundBook = L.FindBook("LOTR", "Tolkien");
+        Console.WriteLine("FInd book LOTR by title: " + FoundBook.Title + " " + FoundBook.Author);
     }
 }
 
