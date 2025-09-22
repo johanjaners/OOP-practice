@@ -27,6 +27,9 @@ class Program
         r2.AddZ("A");
         Console.WriteLine("one room full after one add: " + r2.IsFull());
         //two-roomer is not full when a zombie is added
+        var r3 = new R(2);
+        r3.AddZ("A");
+        Console.WriteLine("two roomer not full after one add: " + !r3.IsFull());
         //second zombie consumes first zombie when added to a one-roomer
     }
 }
