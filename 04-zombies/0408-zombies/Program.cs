@@ -8,6 +8,7 @@
     public void AddZ(string z)
     {
         if (C == 0) return;
+        if (IsFull()) Zs.RemoveAt(0);
         Zs.Add(z);
     }
 }
@@ -31,6 +32,10 @@ class Program
         r3.AddZ("A");
         Console.WriteLine("two roomer not full after one add: " + !r3.IsFull());
         //second zombie consumes first zombie when added to a one-roomer
+        var r4 = new R(1);
+        r4.AddZ("A");
+        r4.AddZ("B");
+        Console.WriteLine("second eats first when added to one roomer: " + (r4.Zs.Count == 1 && r4.Zs[0] == "B"));
     }
 }
         
