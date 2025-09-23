@@ -1,0 +1,15 @@
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\bin\Debug\net9.0\06-animals.exe
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\bin\Debug\net9.0\06-animals.deps.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\bin\Debug\net9.0\06-animals.runtimeconfig.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\bin\Debug\net9.0\06-animals.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\bin\Debug\net9.0\06-animals.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\obj\Debug\net9.0\06-animals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\obj\Debug\net9.0\06-animals.AssemblyInfoInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\obj\Debug\net9.0\06-animals.AssemblyInfo.cs
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\obj\Debug\net9.0\06-animals.csproj.CoreCompileInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\obj\Debug\net9.0\06-animals.sourcelink.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\obj\Debug\net9.0\06-animals.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\obj\Debug\net9.0\refint\06-animals.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\obj\Debug\net9.0\06-animals.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\obj\Debug\net9.0\06-animals.genruntimeconfig.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\06-animals\obj\Debug\net9.0\ref\06-animals.dll
