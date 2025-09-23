@@ -35,5 +35,6 @@ class Program
         r4.AddZ("A");
         r4.AddZ("B");
         Console.WriteLine("Second eats first when added to one roomer: " + (r4.Zs.Count == 1 && r4.Zs[0] == "B"));
+        Console.WriteLine(r4.Zs[0]);
     }
 }
