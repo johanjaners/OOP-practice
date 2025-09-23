@@ -1,0 +1,15 @@
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\bin\Debug\net9.0\0410-z.exe
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\bin\Debug\net9.0\0410-z.deps.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\bin\Debug\net9.0\0410-z.runtimeconfig.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\bin\Debug\net9.0\0410-z.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\bin\Debug\net9.0\0410-z.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\obj\Debug\net9.0\0410-z.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\obj\Debug\net9.0\0410-z.AssemblyInfoInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\obj\Debug\net9.0\0410-z.AssemblyInfo.cs
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\obj\Debug\net9.0\0410-z.csproj.CoreCompileInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\obj\Debug\net9.0\0410-z.sourcelink.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\obj\Debug\net9.0\0410-z.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\obj\Debug\net9.0\refint\0410-z.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\obj\Debug\net9.0\0410-z.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\obj\Debug\net9.0\0410-z.genruntimeconfig.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\04-zombies\0410-z\obj\Debug\net9.0\ref\0410-z.dll
