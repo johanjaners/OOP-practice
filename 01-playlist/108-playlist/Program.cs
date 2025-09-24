@@ -33,5 +33,7 @@ class Program
         Console.WriteLine("Count is 2: " + (p.Songs.Count == 2));
         var found = p.FindSong("One", "Metallica");
         Console.WriteLine("Found One: " + (found != null && found.T == "One"));
+        p.RemoveSong(s0);
+        Console.WriteLine("Count is 1 after One removed: " + (p.Songs.Count == 1));
     }
 }
