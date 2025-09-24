@@ -15,3 +15,16 @@ class Playlist
     public void RemoveSong(Song s) => Songs.Remove(s);
     public Song? FindSong(string title, string artist) => Songs.Find(s => s.Title == title && s.Artist == artist);
 }
+class Program
+{
+    static void Main()
+    {
+        var p = new Playlist();
+        var s0 = new Song("One", "Metallica");
+        var s1 = new Song("Fade to black", "Metallica");
+        p.AddSong(s0);
+        p.AddSong(s1);
+        Console.WriteLine("count 2: " + (p.Songs.Count == 2));
+
+    }
+}
