@@ -25,6 +25,8 @@ class Program
         p.AddSong(s0);
         p.AddSong(s1);
         Console.WriteLine("Count is 2: " + (p.Songs.Count == 2));
-        
+        var found = p.FindSong("One", "Metallica");
+        Console.WriteLine("Found One: " + (found.Title == "One"));
+        p.RemoveSong(s0);
     }
 }
