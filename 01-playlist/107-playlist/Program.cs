@@ -24,6 +24,9 @@ class Program
         var s1 = new Song("Fade to black", "Metallica");
         p.AddS(s0);
         p.AddS(s1);
-        Console.WriteLine("Count is 2 after two add" + (p.Songs.Count == 2));
+        Console.WriteLine("Count is 2 after two add: " + (p.Songs.Count == 2));
+        var found = p.FindS("One", "Metallica");
+        Console.WriteLine("Found One: " + (found != null && found.T == "One"));
+
     }
 }
