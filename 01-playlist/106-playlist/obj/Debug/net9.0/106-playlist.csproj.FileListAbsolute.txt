@@ -1,0 +1,15 @@
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\obj\Debug\net9.0\106-playlist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\obj\Debug\net9.0\106-playlist.AssemblyInfoInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\obj\Debug\net9.0\106-playlist.AssemblyInfo.cs
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\obj\Debug\net9.0\106-playlist.csproj.CoreCompileInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\obj\Debug\net9.0\106-playlist.sourcelink.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\bin\Debug\net9.0\106-playlist.exe
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\bin\Debug\net9.0\106-playlist.deps.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\bin\Debug\net9.0\106-playlist.runtimeconfig.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\bin\Debug\net9.0\106-playlist.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\bin\Debug\net9.0\106-playlist.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\obj\Debug\net9.0\106-playlist.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\obj\Debug\net9.0\refint\106-playlist.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\obj\Debug\net9.0\106-playlist.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\obj\Debug\net9.0\106-playlist.genruntimeconfig.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\01-playlist\106-playlist\obj\Debug\net9.0\ref\106-playlist.dll
