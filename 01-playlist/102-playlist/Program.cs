@@ -12,7 +12,7 @@ class Playlist
 {
     public List<Song> Songs { get; } = new();
     public void AddSong(Song s) => Songs.Add(s);
-    public Song? FindSong(string search) => Songs.Find(s => s.Title == search || s.Artist == search);
+    public Song? FindSong(string title, string artist) => Songs.Find(s => s.Title == title && s.Artist == artist);
 }
 class Program
 {
@@ -25,5 +25,7 @@ class Program
         p.AddSong(s1);
         foreach (Song s in p.Songs)
             Console.WriteLine(s.Title + " " + s.Artist);
+        var search = p.FindSong("One", "Metallica");
+        Console.WriteLine(search.Title);
     }
 }
