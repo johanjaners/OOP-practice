@@ -16,8 +16,20 @@ class Playlist
     public void RemoveSong(Song s) => Songs.Remove(s);
     public void RemoveSong(string t, string a)
     {
-        Songs.Find(s => s.T == t && s.A == a);
+        var s = Songs.Find(s => s.T == t && s.A == a);
         if (s != null) Songs.Remove(s);
     }
     public Song? FindSong(string t, string a) => Songs.Find(s => s.T == t && s.A == a);
+}
+class Program
+{
+    static void Main()
+    {
+        var p = new Playlist();
+        var s0 = new Song("One", "Metallica");
+        var s1 = new Song("Fade to black", "Metallica");
+        p.AddSong(s0);
+        p.AddSong(s1);
+        Console.WriteLine("Count is 2: " + (p.Songs.Count == 2));
+    }
 }
