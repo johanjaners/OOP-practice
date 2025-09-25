@@ -1,0 +1,11 @@
+﻿class R
+{
+    public int C { get; set; }
+
+}
+    
+    //empty room that fits one zombie is not full
+        //room with no capacity cannot fit any zombies
+        //one-roomer becomes full when a zombie is added
+        //two-roomer is not full when a zombie is added
+        //second zombie consumes first zombie when added to a one-roomer

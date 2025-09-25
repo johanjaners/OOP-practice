@@ -2,7 +2,6 @@
 {
     public int C { get; set; }
     public R(int c) => this.C = c;
-
     public List<string> Zs { get; set; } = new();
     public bool IsFull() => Zs.Count >= C;
     public void AddZ(string z)

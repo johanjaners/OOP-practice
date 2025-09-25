@@ -1,4 +1,4 @@
-﻿//base class
+﻿//base class (parent class, superclass)
 class Animal
 {
     public void Eat() => Console.WriteLine("Eating..");

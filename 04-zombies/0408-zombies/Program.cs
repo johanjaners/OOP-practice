@@ -38,4 +38,3 @@ class Program
         Console.WriteLine("second eats first when added to one roomer: " + (r4.Zs.Count == 1 && r4.Zs[0] == "B"));
     }
 }
-        

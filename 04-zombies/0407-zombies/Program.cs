@@ -41,6 +41,6 @@ class Program
         var r4 = new R(1);
         r4.AddZ(ZA);
         r4.AddZ(ZB);
-        Console.WriteLine("Second eats first when added to one room: " + (r4.Zs.Count == 1 && r4.Zs[0].Name == "B"));
+        Console.WriteLine("Second eats first when added to one room: " + (r4.Zs.Count == 1 && r4.Zs[0] == ZB));
     }
 }

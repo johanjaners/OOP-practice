@@ -1,0 +1,14 @@
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\bin\Debug\net9.0\tasks.exe
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\bin\Debug\net9.0\tasks.deps.json
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\bin\Debug\net9.0\tasks.runtimeconfig.json
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\bin\Debug\net9.0\tasks.dll
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\bin\Debug\net9.0\tasks.pdb
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\obj\Debug\net9.0\tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\obj\Debug\net9.0\tasks.AssemblyInfoInputs.cache
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\obj\Debug\net9.0\tasks.AssemblyInfo.cs
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\obj\Debug\net9.0\tasks.csproj.CoreCompileInputs.cache
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\obj\Debug\net9.0\tasks.dll
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\obj\Debug\net9.0\refint\tasks.dll
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\obj\Debug\net9.0\tasks.pdb
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\obj\Debug\net9.0\tasks.genruntimeconfig.cache
+C:\Users\JanérsJohan\salt\precourse\coding-session\tasks\obj\Debug\net9.0\ref\tasks.dll

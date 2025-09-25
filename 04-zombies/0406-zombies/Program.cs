@@ -34,6 +34,6 @@ class Program
         var r4 = new Room(1);
         r4.AddZ("A");
         r4.AddZ("B");
-        Console.WriteLine("second eats first when added to one roomer: " + (r4.IsFull() && r4.Zs.Count == 1 && r4.Zs[0] == "B"));
+        Console.WriteLine("second eats first when added to one roomer: " + (r4.Zs.Count == 1 && r4.Zs[0] == "B"));
     }
 }

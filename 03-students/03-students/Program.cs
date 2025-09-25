@@ -28,7 +28,6 @@ class Program
     static void Main()
     {
         var C = new Classroom();
-
         C.AddStudent(new Student("David", 5));
         C.AddStudent(new Student("Ken", 10));
         C.AddStudent(new Student("Sara", 8));
@@ -57,7 +56,5 @@ class Program
             totalstudents += c.Students.Count;
 
         Console.WriteLine("No of Students in School: " + totalstudents);
-
-
     }
 }

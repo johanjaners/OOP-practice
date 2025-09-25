@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("0401-zombies")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bc6b175697798372b45938f4e3d161c75a80a11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b81bbfe4c8845fb4c9db0438df95658361f556a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("0401-zombies")]
 [assembly: System.Reflection.AssemblyTitleAttribute("0401-zombies")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

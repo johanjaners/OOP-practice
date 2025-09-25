@@ -37,3 +37,10 @@ class Program
         Console.WriteLine("Second zombie eats first when added to one room: " + (r4.Zs.Count == 1 && r4.Zs[0] == "B"));
     }
 }
+
+
+//empty room that fits one zombie is not full
+        //room with no capacity cannot fit any zombies
+        //one-roomer becomes full when a zombie is added
+        //two-roomer is not full when a zombie is added
+        //second zombie consumes first zombie when added to a one-roomer    

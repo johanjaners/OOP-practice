@@ -20,8 +20,8 @@ class Program
 {
     static void Main()
     {
-        //test.skip("empty room that fits one zombie is not full", () => {});
-        var R0 = new Room(0);
+        Console.WriteLine("empty room that fits one zombie is not full");
+        var R0 = new Room(1);
         Console.WriteLine("Room Capacity: " + R0.Capacity);
         Console.WriteLine("Zombies: " + R0.Zombies.Count);
         Console.WriteLine("Room is full: " + R0.isFull());
