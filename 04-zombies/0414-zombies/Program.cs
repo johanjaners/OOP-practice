@@ -4,6 +4,11 @@
     public R(int c) => this.C = c;
     public List<string> Zs { get; } = new();
     public bool IsFull() => Zs.Count >= C;
+    public void AddZ(string z)
+    {
+        if (C == 0) return;
+        Zs.Add(z);
+    }
 }
 class Program
 {
@@ -11,8 +16,11 @@ class Program
     {
         //empty room that fits one zombie is not full
         var r0 = new R(1);
-        Console.WriteLine("EMpty one room not full: " + !r0.IsFull());
+        Console.WriteLine("Empty one room not full: " + !r0.IsFull());
         //room with no capacity cannot fit any zombies
+        var r1 = new R(0);
+        r1.AddZ("A");
+        Console.WriteLine("No cap room dont fit any: " + (r1.Zs.Count == 0));
         //one-roomer becomes full when a zombie is added
         //two-roomer is not full when a zombie is added
         //second zombie consumes first zombie when added to a one-roomer   
