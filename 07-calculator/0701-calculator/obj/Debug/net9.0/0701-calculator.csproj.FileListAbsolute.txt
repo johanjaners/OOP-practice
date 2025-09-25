@@ -1,0 +1,15 @@
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\bin\Debug\net9.0\0701-calculator.exe
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\bin\Debug\net9.0\0701-calculator.deps.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\bin\Debug\net9.0\0701-calculator.runtimeconfig.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\bin\Debug\net9.0\0701-calculator.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\bin\Debug\net9.0\0701-calculator.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\obj\Debug\net9.0\0701-calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\obj\Debug\net9.0\0701-calculator.AssemblyInfoInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\obj\Debug\net9.0\0701-calculator.AssemblyInfo.cs
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\obj\Debug\net9.0\0701-calculator.csproj.CoreCompileInputs.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\obj\Debug\net9.0\0701-calculator.sourcelink.json
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\obj\Debug\net9.0\0701-calculator.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\obj\Debug\net9.0\refint\0701-calculator.dll
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\obj\Debug\net9.0\0701-calculator.pdb
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\obj\Debug\net9.0\0701-calculator.genruntimeconfig.cache
+C:\Users\JanérsJohan\salt\precourse\OOP-Practice\07-calculator\0701-calculator\obj\Debug\net9.0\ref\0701-calculator.dll
